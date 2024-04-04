@@ -1,0 +1,43 @@
+.ho {
+  transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+
+.ho:hover {
+  transform: translateX(10px); /* تغییر مکان باکس به سمت راست */
+}
+
+.hov.active {
+  top: 0; /* تغییر مکان باکس به سمت بالا */
+}
+
+.memberscarousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.kart {
+  min-width: 100px;
+  margin: 10px;
+  transition: transform 0.5s ease;
+}
+
+.kart.active {
+  transform: scale(1.2);
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

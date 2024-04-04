@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIDPC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #302b63">
+    <!-- ناوبار - فیکس -->
+    <nav
+      class="navbar navbar-expand-lg border-bottom border-white"
+      style="
+        --bs-scroll-height: 100px;
+        background-image: linear-gradient(-90deg, #0f0c29, #302b63, #24243e);
+      "
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <!-- عکس لوگو -->
+        <img
+          src="/photos/Logo AIDPC.png"
+          alt="Logo"
+          width="60"
+          height="60"
+          class="d-inline-block align-text-top"
+        />
+        <!-- دکمه ی باز شونده برای گوشی -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- لیست ناوبار -->
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="/aidpc.html">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">گالری</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اخبار</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">مقاله</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">فرصت شغلی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">درباره ی ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ارتباط با ما</a>
+            </li>
+          </ul>
+          <form class="d-flex me-auto" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              style="background-color: #302b63"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-light"
+              type="submit"
+              data-bs-theme="dark"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="p-1 m-1 text-center text-light"
+      style="
+        background-image: linear-gradient(-90deg, #0f0c29, #302b63, #24243e);
+        width: 99.5%;
+        height: 100%;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      "
+    >
+      <img
+        src="photos/Logo AIDPC.png"
+        width="25%"
+        height="25%"
+        alt="aidpc logo"
+      />
+      <h1 class="p-2">آینده را هم اکنون تجربه کنید ...</h1>
+      <h4 class="p-2">پیشگامان توسعه آرین ایده</h4>
+      <p class="p-2">
+        توسعه مستمر و پایدار محصولات و ارائه خدمات ارزش آفرین برای مشتریان از
+        ماموریت های گروه ماست
+      </p>
+    </div>
+    <!-- خدمات ما -->
+    <div
+      class="container text-center mt-5 mb-5 pt-5 pb-5 g-4"
+      data-bs-theme="dark"
+    >
+      <div class="row align-items-center">
+        <div class="col ho">
+          <a href="#" class="text-decoration-none link-dark">
+            <img
+              src="/photos/بازطراحیسایت.png"
+              alt="باز طراحی سایت"
+              width="100"
+            />
+            <p class="text-body-emphasis">باز طراحی سایت</p></a
+          >
+        </div>
+        <div class="col ho">
+          <a href="#" class="text-decoration-none link-dark">
+            <img src="/photos/تولیدمحتوا.png" alt="تولید محتوا" width="100" />
+            <p class="text-body-emphasis">تولید محتوا</p></a
+          >
+        </div>
+        <div class="col ho">
+          <a href="#" class="text-decoration-none link-dark">
+            <img
+              src="/photos/طراحیسایتشخصی.png"
+              alt="طراحی سایت شخصی"
+              width="100"
+            />
+            <p class="text-body-emphasis">طراحی سایت شخصی</p></a
+          >
+        </div>
+        <div class="col ho">
+          <a href="#" class="text-decoration-none link-dark">
+            <img
+              src="/photos/طراحیسایتفروشگاهی.png"
+              alt="طراحی سایت فروشگاهی"
+              width="100"
+            />
+            <p class="text-body-emphasis">طراحی سایت فروشگاهی</p></a
+          >
+        </div>
+        <div class="col ho">
+          <a href="#" class="text-decoration-none link-dark">
+            <img
+              src="/photos/پشتیبانیسایت.png"
+              alt="پشتیبانی سایت"
+              width="100"
+            />
+            <p class="text-body-emphasis">پشتیبانی سایت</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- محصولات ما -->
+    <div
+      class="p-3"
+      style="
+        background-image: linear-gradient(-90deg, #0f0c29, #302b63, #24243e);
+        width: 99%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      "
+    >
+      <p class="text-center text-light">محصولات ما</p>
+
+      <!-- نمونه کارهامون -->
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4 g-4 m-2"
+      >
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="/photos/card.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">سامانه آموزش آنلاین های لرنینگ</h5>
+              <p class="card-text">
+                سامانه آموزش آنلاین « های لرنینگ » می تواند با توجه به نیازهای
+                افراد و موسسات مختلف به طرق مختلفی انجام پذیرد. افراد و آموزشگاه
+                ها به دلایل متنوعی از بستر آموزش مجازی استفاده می کنند.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="/photos/card2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">پیتوص</h5>
+              <p class="card-text">
+                سامانه پیتوص یک بانک اطلاعات جامع از شرکت شهرک های صنعتی و
+                واحدهای صنعتی می‌باشد که برای دسترسی عموم به شرکت و محصولات
+                موجود در آن ها و همچنین برای معرفی و ایجاد بستر ارتباطی بین شرکت
+                های فعال می‌باشد.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="/photos/card3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">سامانه جامع پارک علم و فناوری کشور</h5>
+              <p class="card-text">
+                سامانه پارک علم و فناوری یک بانک اطلاعات جامع از واحدها و هسته
+                های فناور و دانش‌بنیان مستقر در پارک های علم و فناوری کشور
+                می‌باشد که برای دسترسی عموم به شرکت و محصولات موجود در آن ها و
+                همچنین برای معرفی و ایجاد بستر ارتباطی بین شرکت های فعال می‌باشد
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="/photos/card4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- معرفی اعضای شرکت -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col col-0 col-md-1 col-lg-3"></div>
+        <div class="col col-9 col-md-10 col-lg-6">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-dark"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 1"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people1.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">علی خلردی</h5>
+                        <p class="card-text">مدیرعامل</p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people2.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی دوم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people3.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی سوم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people4.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی چهارم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people5.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی پنجم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people6.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی ششم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people7.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی هفتم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card m-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="/photos/people1.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">شماره ی هشتم</h5>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        <p class="card-text">
+                          <small class="text-body-secondary"
+                            >Last updated 3 mins ago</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col col-0 col-md-1 col-lg-3"></div>
+      </div>
+    </div>
+
+    <script>
+      // با استفاده از جاوااسکریپت، کلاس active به باکس اضافه می‌شود
+      window.onload = function () {
+        const boxElement = document.querySelector(".hov");
+        boxElement.classList.add("active");
+      };
+
+      // برای کلاس کارت
+      let activeIndex = 0;
+      const cards = document.querySelectorAll(".kart");
+
+      function moveSlide(direction) {
+        cards[activeIndex].classList.remove("active");
+        activeIndex = (activeIndex + direction + cards.length) % cards.length;
+        cards[activeIndex].classList.add("active");
+      }
+    </script>
+    <br />
+    <footer
+      class="nav justify-content-center p-5 text-center border-top"
+      style="
+        background-image: linear-gradient(-90deg, #0f0c29, #302b63, #24243e);
+      "
+    >
+      <div class="container">
+        <div
+          class="text-light row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 m-2"
+        >
+          <div class="col">
+            ارتباط با ما
+            <br />
+            <p>شرکت پیشگامان توسعه آرین ایده (سهامی خاص )</p>
+            <br />
+            <p>تلفن ثابت : 01732462116</p>
+            <br />
+            <p>
+              آدرس : گرگان ، ميدان مفتح ، پارک علم و فناوري ( کارخانه نوآوري<br />
+              گرگان) ، طبقه همکف ، واحد 302 ، کد پستي : 4919613169
+            </p>
+          </div>
+          <div class="col">ورود به خبرنامه</div>
+          <div class="col">
+            دسترسی سریع <br />
+            <br />
+            پارک علم و فناوری <br />
+            <br />
+            سامانه جامع واحدهای صنعتی کشور ( پیتوص ) <br />
+            <br />
+            سامانه آموزش آنلاین «های لرنینگ» <br />
+            <br />
+            نرم افزار مدیریاب جانشین پروری <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="bg-secondary p-2 text-center">
+      تمام حقوق مادی و معنوی سامانه مربوط به شرکت پیشگامان توسعه آرین ایده می
+      باشد
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
